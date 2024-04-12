@@ -5,6 +5,7 @@
   background-size: contain;
   position: relative;
 }
+
 .header-contents {
   position: absolute;
   display: flex;
@@ -19,17 +20,18 @@
 
 .header-contents h2 {
   font-weight: 500;
-  color: white;
+  color: #ffffff; /* Changed to white for better contrast */
   font-size: max(4.5vw, 22px);
 }
 
 .header-contents p {
-  color: white;
+  color: #ffffff; /* Changed to white for better contrast */
   font-size: 1vw;
 }
+
 .header-contents button {
   border: none;
-  color: #747474;
+  color: #333333; /* Changed to darker color for better contrast */
   font-weight: 500;
   padding: 1vw 2.3vw;
   background-color: white;
